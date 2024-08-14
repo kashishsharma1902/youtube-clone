@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+html,
+body {
+    font-family:"roboto", sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo img{
+    width: 150px;
+    height: auto;
+
+}
+.mic img{
+    width: 25px;
+    height: 25px;
+    
+}
+
+.search img{
+    width: 35px;
+    height: 30px;
+    
+}
+.search{
+    display: flex;
+}
+
+
+
+.search input{
+    min-width: 600px;
+    padding: 10px 20px;
+    border: 0.5px solid rgb(230, 206, 219);
+}
+.search button{
+    border: none;
+  
+    margin-left: 20px;
+}
+
+
+.side_nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    gap: 20px;
+}
+.side_nav img{
+    width: 25px;
+    height: 25px;
+}
+.tags{
+    display: flex;
+    padding: 10px 20px;
+    gap: 15px;
+    border-top: 1px solid rgb(240, 240, 237);
+}
+.tag{
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 1px solid rgb(223, 221, 217);
+}
+.dark{
+    background: rgb(0, 0, 0);
+    color: aliceblue;
+
+}
+.light{
+    background: rgb(255, 255, 255);
+    color: rgb(9, 10, 10);
+    background-color: rgb(237, 242, 247);
+}
+.asise{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.side_icons img{
+    width: 30px;
+    height: 30px;
+    
+}
+.bars{
+    margin-top: 20px;
+    align-items:center ;
+    display: flex;
+    justify-content: center;
+}
+.bars img{
+    width: 30px;
+    height: 30px;
+}
+.container{
+    display: flex;
+}
+.side_icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.side_icons p{
+    font-size: 12px;
+}
+.main_container{
+    width: 100%;
+}
+main{
+    min-height: 100vh;
+    background-image:linear-gradient(to bottom right, rgb(136, 125, 152),rgb(242, 219, 244)) ;
+}
+.card img{
+    width: 350px;
+    height: 200px;
+}
+.avatar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+}
+.dots img{
+  
+    width: 20px;
+    height: 20px;
+    }
+.dots{
+    display: flex;
+    flex-direction: column;
+}
+.card_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+}
+.card{
+    padding: 10px;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+}
+.avatar_content{
+    padding-top: 10px;
+    display: flex;
+    gap: 5px;
+}
+.card h3{
+    font-size: 16px;
+ 
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.channel_name{
+    font-size: 12px;
+    font-weight: bold;
+
+
+}
+.content_status{
+    display: flex;
+    font-size: 11px;
+    gap: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
